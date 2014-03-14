@@ -37,7 +37,7 @@ module Grape
   module Exceptions
     autoload :Base,                           'grape/exceptions/base'
     autoload :Validation,                     'grape/exceptions/validation'
-    autoload :ValidationErrors,               'grape/exceptions/validation_errors'
+    # autoload :ValidationErrors,               'grape/exceptions/validation_errors'
     autoload :MissingVendorOption,            'grape/exceptions/missing_vendor_option'
     autoload :MissingMimeType,                'grape/exceptions/missing_mime_type'
     autoload :MissingOption,                  'grape/exceptions/missing_option'
